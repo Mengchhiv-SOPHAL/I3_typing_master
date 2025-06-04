@@ -1,5 +1,5 @@
-# i3-typing-master
-i3-typing-master midterm
+# I3_typing_master
+I3_typing_master midterm
 # Typing Master Web Project
 
 Welcome to **Typing Master**, a simple and interactive web application designed to help users improve their typing speed and accuracy through tests and results tracking.
@@ -29,7 +29,7 @@ No special installation is required. This project uses only HTML, CSS, and JavaS
    ```bash
    git clone https://github.com/Mengchhiv-SOPHAL/I3_typing_master.git
    
-   cd i3_typing_master
+   cd I3_typing_master
 
    # Add your changes
 git add .
