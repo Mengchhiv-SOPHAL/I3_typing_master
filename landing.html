@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Typing Master - Landing Page</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #2193b0, #6dd5ed);
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      background-color: rgba(0, 0, 0, 0.3);
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 1.8em;
+      font-weight: bold;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 20px;
+      font-size: 1em;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffeb3b;
+    }
+
+    .main-content {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    .main-content h1 {
+      font-size: 3em;
+      margin-bottom: 15px;
+    }
+
+    .main-content p {
+      font-size: 1.2em;
+      margin-bottom: 30px;
+    }
+
+    .start-button {
+      padding: 12px 30px;
+      font-size: 1em;
+      background-color: #fff;
+      color: #0072ff;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+
+    .start-button:hover {
+      background-color: #f0f0f0;
+    }
+
+    @media (max-width: 600px) {
+      .logo {
+        font-size: 1.5em;
+      }
+
+      nav a {
+        margin-left: 10px;
+        font-size: 0.9em;
+      }
+
+      .main-content h1 {
+        font-size: 2.2em;
+      }
+
+      .start-button {
+        padding: 10px 25px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">Typing Master</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+      <a href="LoginPage.html">Log In</a>
+    </nav>
+  </header>
+
+  <div class="main-content">
+    <h1>Welcome to Typing Master</h1>
+    <p>Sharpen your typing skills and boost your speed!</p>
+    <a href="game.html">
+      <button class="start-button">Start Now</button>
+    </a>
+  </div>
+
+</body>
+</html>
